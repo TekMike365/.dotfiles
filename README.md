@@ -2,7 +2,7 @@
 
 ## Requirements
 
-Ensure you have tho following installed on your system
+Ensure you have the following installed on your system
 
 ### Git (duh)
 
@@ -16,13 +16,13 @@ sudo apt install stow
 First, clone this repo to your $HOME directory
 
 ```
-git clone git@github.com:TekMike365/dotfiles.git
+git clone git@github.com:TekMike365/.dotfiles.git
 ```
 
-Then cd into it use GNU stow to create symlinks
+Then cd into it and use GNU stow to create symlinks
 
 ```
-cd dotfiles
+cd .dotfiles
 stow .
 ```
 
