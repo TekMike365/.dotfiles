@@ -1,0 +1,37 @@
+set nocompatible
+
+" Syntax: {{{
+syntax on
+colorscheme catppuccin_macchiato
+set background=dark
+
+set nu
+
+set autoindent
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+set expandtab
+
+set scrolloff=10
+" }}}
+
+let mapleader = " "
+
+nnoremap <leader>h <C-w>h
+nnoremap <leader>j <C-w>j
+nnoremap <leader>k <C-w>k
+nnoremap <leader>l <C-w>l
+nnoremap <leader>c <C-w>c
+nnoremap <leader>t <C-w>T
+nnoremap <leader>T :tabnew<CR>
+nnoremap <leader><tab> gt
+nnoremap <leader><S-tab> gT
+
+nnoremap <leader>s <C-w>s
+nnoremap <leader>v <C-w>v
+
+nnoremap <leader>e :Explore<CR>
+nnoremap <leader>S :Sexplore<CR>
+nnoremap <leader>V :Vexplore<CR>
+
