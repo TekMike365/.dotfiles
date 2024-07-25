@@ -1,5 +1,7 @@
+alias l='ls'
+alias ll='ls -l'
+alias li='ll'
 alias la='ls -al'
-alias li='ls -l'
 alias l1='ls -1'
 
 alias fucking='sudo'
