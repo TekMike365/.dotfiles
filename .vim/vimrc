@@ -18,6 +18,9 @@ set scrolloff=10
 
 let mapleader = " "
 
+nnoremap <leader>q :qa!<CR>
+nnoremap <leader>r :so %<CR>
+
 nnoremap <leader>h <C-w>h
 nnoremap <leader>j <C-w>j
 nnoremap <leader>k <C-w>k
