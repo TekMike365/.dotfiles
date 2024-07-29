@@ -10,6 +10,6 @@ alias fuck='sudo $(history -p !!)'
 alias pls='fuck'
 alias fuckingbang='fuck'
 
-alias vimrc="vim ${HOME}/.vimrc"
+alias vimrc="vim ${HOME}/.vim/vimrc"
 alias aliases="vim ${HOME}/.bash_aliases"
 
