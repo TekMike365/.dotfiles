@@ -39,12 +39,6 @@ autocmd("Filetype", {
   command = "setlocal expandtab=true shiftwidth=8 softtabstop=0"
 })
 
--- Set colorcolumn
-autocmd("Filetype", {
-  pattern = {"python", "rst", "c", "cpp"},
-  command = "set colorcolumn=80"
-})
-
 -- spellcheck or smthn
 autocmd("Filetype", {
   pattern = {"gitcommit", "markdown", "text"},
