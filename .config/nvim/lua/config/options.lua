@@ -11,3 +11,5 @@ vim.opt.smartindent = true -- make indenting smarter
 vim.opt.softtabstop = indent -- when hitting <BS>, pretend like a tab is removed, even if spaces
 vim.opt.tabstop = indent -- insert N spaces for a tab
 vim.opt.shiftround = true -- use multiple of shiftwidth when indenting with "<" and ">"
+
+vim.opt.scrolloff = 16
