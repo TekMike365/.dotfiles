@@ -34,6 +34,9 @@ First, clone this repo to your $HOME directory
 git clone git@github.com:TekMike365/.dotfiles.git
 ```
 
+Then remove all config files that collide with the config files in this repo,
+and create all config dirs.
+
 Then cd into it and use GNU stow to create symlinks
 
 ```
