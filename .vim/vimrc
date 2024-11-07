@@ -18,23 +18,39 @@ set scrolloff=10
 
 let mapleader = " "
 
-nnoremap <leader>q :qa!<CR>
+nnoremap <leader>qq :qa!<CR>
+tnoremap <leader>qq <leader>qq
 nnoremap <leader>r :so %<CR>
+tnoremap <leader>r <leader>r
 
-nnoremap <leader>h <C-w>h
-nnoremap <leader>j <C-w>j
-nnoremap <leader>k <C-w>k
-nnoremap <leader>l <C-w>l
+nnoremap <C-h> <C-w>h
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-l> <C-w>l
 nnoremap <leader>c <C-w>c
-nnoremap <leader>t <C-w>T
-nnoremap <leader>T :tabnew<CR>
-nnoremap <leader><tab> gt
-nnoremap <leader><S-tab> gT
+tnoremap <leader>c <leader>c
+
+tnoremap <Esc> <C-w>N
+
+nnoremap <leader>t gt
+tnoremap <leader>t <leader>t
+nnoremap <leader>T gT
+tnoremap <leader>T <leader>T
+
+nnoremap <leader>i <C-w>T
+tnoremap <leader>i <leader>i
+nnoremap <leader>I :tabnew<CR>
+tnoremap <leader>I <leader>I
 
 nnoremap <leader>s <C-w>s
+tnoremap <leader>s <leader>s
 nnoremap <leader>v <C-w>v
+tnoremap <leader>v <leader>v
 
 nnoremap <leader>e :Explore<CR>
+tnoremap <leader>e <leader>e
 nnoremap <leader>S :Sexplore<CR>
+tnoremap <leader>S <leader>S
 nnoremap <leader>V :Vexplore<CR>
+tnoremap <leader>V <leader>V
 
