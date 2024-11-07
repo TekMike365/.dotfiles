@@ -2,10 +2,11 @@ set nocompatible
 
 " Syntax: {{{
 syntax on
-colorscheme catppuccin_macchiato
+" colorscheme catppuccin_macchiato
 set background=dark
 
 set nu
+set rnu
 
 set autoindent
 set tabstop=4
