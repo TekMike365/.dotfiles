@@ -143,10 +143,19 @@ help    print this message
                 elif src[pc] == "]":
                     lvl -= 1
 
+                c += 1
+                if src[pc] == "\n":
+                    line += 1
+                    char = 0
+
                 pc += 1
                 if pc >= len(src) or pc < 0:
                     print("Error: unmatched brackets")
                     exit()
+            c += 1
+            if src[pc] == "\n":
+                line += 1
+                char = 0
         else:
             lvl += 1
     elif ins == "]":
@@ -160,10 +169,19 @@ help    print this message
                 elif src[pc] == "[":
                     lvl -= 1
 
+                c -= 1
+                if src[pc] == "\n":
+                    line -= 1
+                    char = 0
+
                 pc -= 1
                 if pc >= len(src) or pc < 0:
                     print("Error: unmatched brackets")
                     exit()
+            c -= 1
+            if src[pc] == "\n":
+                line -= 1
+                char = 0
         else:
             lvl -= 1
 
