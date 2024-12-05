@@ -13,3 +13,6 @@ alias fuckingbang='fuck'
 alias vimrc="vim ${HOME}/.vim/vimrc"
 alias aliases="vim ${HOME}/.bash_aliases"
 
+alias bf="python3 ${HOME}/.local/src/brainfuck/bf.py"
+alias bfdb="python3 ${HOME}/.local/src/brainfuck/bfdb.py"
+
